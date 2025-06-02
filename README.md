@@ -66,13 +66,24 @@ The larger the image, the more significant the performance improvement due to be
 
 ---
 
+
 ## 📂 File Structure
+
 ```
-├── original_filter.c # Baseline convolution implementation 
-├── optimized_filter.c # Optimized convolution implementation 
-├── perfenv.c # Performance measurement environment 
-├── report.pdf # Detailed explanation and analysis 
-├── Makefile # Build script 
+├── Makefile               # Build script
+├── README.md              # Project description and documentation
+├── bmplib.c               # BMP file handling (image I/O)
+├── bmplib.h               # BMP header definitions
+├── hw2.c                  # Optimized convolution filter implementation
+├── hw2.h                  # Header for convolution functions
+├── main.c                 # Entry point for executing the filter
+├── perfenv.c              # Performance measurement environment
+├── perfenv.h              # Header for performance environment
+├── img_128.bmp            # Sample input image (128×128)
+├── img_256.bmp            # Sample input image (256×256)
+├── img_512.bmp            # Sample input image (512×512)
+├── img_768.bmp            # Sample input image (768×768)
+└── img_1024.bmp           # Sample input image (1024×1024)
 ```
 
 ---
