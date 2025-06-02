@@ -1,8 +1,7 @@
-# 🧠 System Programming HW2 - Optimized Image Convolution Filter
+# 🧠 System Programming - Optimized Image Convolution Filter
 
 Author: 김창규 (202011061)  
 Course: System Programming @ DGIST  
-Assignment: HW2 - Efficient C Programming
 
 ---
 
@@ -69,11 +68,11 @@ The larger the image, the more significant the performance improvement due to be
 
 ## 📂 File Structure
 
-├── original_filter.c # Baseline convolution implementation
-├── optimized_filter.c # Optimized convolution implementation
-├── perfenv.c # Performance measurement environment
-├── report.pdf # Detailed explanation and analysis
-├── Makefile # Build script
+├── original_filter.c # Baseline convolution implementation \n
+├── optimized_filter.c # Optimized convolution implementation \n
+├── perfenv.c # Performance measurement environment \n 
+├── report.pdf # Detailed explanation and analysis \n
+├── Makefile # Build script \n
 
 
 ---
